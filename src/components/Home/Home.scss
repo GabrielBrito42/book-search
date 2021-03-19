@@ -1,0 +1,35 @@
+.home-container{
+  font-size: 15pt;
+  font-family: 'Ubuntu';
+
+  .center{
+    text-align: center;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .border{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  button{
+    margin-top: -6px;
+    margin-left: 5px;
+    background-color: black;
+    outline: none !important;
+    border: none !important;
+  }
+
+  button:hover{
+    background-color: black;
+  }
+}
